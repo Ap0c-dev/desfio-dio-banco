@@ -4,10 +4,6 @@ import java.util.List;
 public class Banco  {
 	private String nome;
 	
-	List<Conta> contas = new ArrayList<>();	
-
-	contas.forEach(System.out::println);
-
 	
 	public String getNome() {
 		return nome;
